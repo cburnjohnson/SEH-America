@@ -32,12 +32,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.titleInput = new System.Windows.Forms.TextBox();
-            this.bodyText = new System.Windows.Forms.TextBox();
             this.suggestImagesBtn = new System.Windows.Forms.Button();
             this.generateSlide = new System.Windows.Forms.Button();
             this.imageOne = new System.Windows.Forms.PictureBox();
             this.imageTwo = new System.Windows.Forms.PictureBox();
             this.imageThree = new System.Windows.Forms.PictureBox();
+            this.boldButton = new System.Windows.Forms.Button();
+            this.bodyText = new System.Windows.Forms.RichTextBox();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imageOne)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageTwo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageThree)).BeginInit();
@@ -81,15 +83,6 @@
             this.titleInput.Name = "titleInput";
             this.titleInput.Size = new System.Drawing.Size(562, 20);
             this.titleInput.TabIndex = 3;
-            // 
-            // bodyText
-            // 
-            this.bodyText.Location = new System.Drawing.Point(192, 186);
-            this.bodyText.Multiline = true;
-            this.bodyText.Name = "bodyText";
-            this.bodyText.Size = new System.Drawing.Size(562, 82);
-            this.bodyText.TabIndex = 4;
-            this.bodyText.TextChanged += new System.EventHandler(this.bodyText_TextChanged);
             // 
             // suggestImagesBtn
             // 
@@ -144,17 +137,47 @@
             this.imageThree.TabStop = false;
             this.imageThree.Click += new System.EventHandler(this.imageThree_Click);
             // 
+            // boldButton
+            // 
+            this.boldButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boldButton.Location = new System.Drawing.Point(110, 220);
+            this.boldButton.Name = "boldButton";
+            this.boldButton.Size = new System.Drawing.Size(75, 23);
+            this.boldButton.TabIndex = 10;
+            this.boldButton.Text = "Bold Text";
+            this.boldButton.UseVisualStyleBackColor = true;
+            this.boldButton.Click += new System.EventHandler(this.boldButton_Click);
+            // 
+            // bodyText
+            // 
+            this.bodyText.Location = new System.Drawing.Point(192, 175);
+            this.bodyText.Name = "bodyText";
+            this.bodyText.Size = new System.Drawing.Size(561, 96);
+            this.bodyText.TabIndex = 11;
+            this.bodyText.Text = "";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(284, 88);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "label4";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(906, 572);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.bodyText);
+            this.Controls.Add(this.boldButton);
             this.Controls.Add(this.imageThree);
             this.Controls.Add(this.imageTwo);
             this.Controls.Add(this.imageOne);
             this.Controls.Add(this.generateSlide);
             this.Controls.Add(this.suggestImagesBtn);
-            this.Controls.Add(this.bodyText);
             this.Controls.Add(this.titleInput);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -175,12 +198,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox titleInput;
-        private System.Windows.Forms.TextBox bodyText;
         private System.Windows.Forms.Button suggestImagesBtn;
         private System.Windows.Forms.Button generateSlide;
         private System.Windows.Forms.PictureBox imageOne;
         private System.Windows.Forms.PictureBox imageTwo;
         private System.Windows.Forms.PictureBox imageThree;
+        private System.Windows.Forms.Button boldButton;
+        private System.Windows.Forms.RichTextBox bodyText;
+        private System.Windows.Forms.Label label4;
     }
 }
 

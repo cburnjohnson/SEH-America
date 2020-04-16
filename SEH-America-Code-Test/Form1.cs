@@ -20,6 +20,7 @@ namespace SEH_America_Code_Test
         string imageUrlOne = "";
         string imageUrlTwo = "";
         string imageUrlThree = "";
+        string boldText = "";
         public Form1()
         {
             InitializeComponent();
@@ -35,11 +36,53 @@ namespace SEH_America_Code_Test
         private void suggestImagesBtn_Click(object sender, EventArgs e)
         {
             string titleText = titleInput.Text;
+           
+
             string[] titleTextArr = titleText.Split(null);
 
+            string boldText = "";
+
+            
+            
+
+            for (bodyText.SelectionStart = 0; bodyText.SelectionStart < bodyText.TextLength; bodyText.SelectionStart++)
+            {
+                bodyText.SelectionLength = 1;
+
+                var s = bodyText.SelectionFont.Style;
+
+                if ((s & FontStyle.Bold) != 0 )
+                {
+                    boldText += bodyText.SelectedText;
+                   
+                }
+
+                
+
+                
+            }
+            Console.WriteLine(boldText);
+
             string queryString = string.Join("+", titleTextArr);
+            
+            if (boldText.Length > 0)
+            {
 
+                string[] boldTextArr = boldText.Split();
+                string boldTextQuery = string.Join("+", boldTextArr);
 
+                if (queryString == "" )
+                {
+                    queryString = boldTextQuery;
+                } else
+                {
+
+                   queryString = queryString + "+" + boldTextQuery;
+                }
+
+            }
+
+            Console.WriteLine(queryString);
 
             string url = "https://pixabay.com/api/?key=16044426-244c292e5e138059720ae50ee&q=" + queryString;
 
@@ -210,6 +253,23 @@ namespace SEH_America_Code_Test
                 imageUrlThree = Convert.ToString(imageThree.ImageLocation);
                 imageThree.BorderStyle = BorderStyle.Fixed3D;
             }
+        }
+
+        private void boldButton_Click(object sender, EventArgs e)
+        {
+            FontStyle style = bodyText.SelectionFont.Style;
+            if (bodyText.SelectionFont.Bold)
+            {
+                style = style & ~FontStyle.Bold;
+                boldButton.Font = new Font(boldButton.Font, FontStyle.Regular);
+            }
+            else
+            {
+                style = style | FontStyle.Bold;
+                boldButton.Font = new Font(boldButton.Font, FontStyle.Bold);
+            }
+            bodyText.SelectionFont = new Font(bodyText.SelectionFont, style);
+            bodyText.Focus();
         }
     }
 }
