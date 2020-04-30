@@ -1,4 +1,4 @@
-# SEH America Code Test Instructions
+# Power Point Slide Generator
 
 1. Input title and text body.
 2. Click the Suggest Images Button (images are suggested based on title and what text you have bolded).
