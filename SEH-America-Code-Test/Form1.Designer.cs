@@ -39,7 +39,6 @@
             this.imageThree = new System.Windows.Forms.PictureBox();
             this.boldButton = new System.Windows.Forms.Button();
             this.bodyText = new System.Windows.Forms.RichTextBox();
-            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imageOne)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageTwo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageThree)).BeginInit();
@@ -156,21 +155,11 @@
             this.bodyText.TabIndex = 11;
             this.bodyText.Text = "";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(284, 88);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "label4";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(906, 572);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.bodyText);
             this.Controls.Add(this.boldButton);
             this.Controls.Add(this.imageThree);
@@ -205,7 +194,6 @@
         private System.Windows.Forms.PictureBox imageThree;
         private System.Windows.Forms.Button boldButton;
         private System.Windows.Forms.RichTextBox bodyText;
-        private System.Windows.Forms.Label label4;
     }
 }
 

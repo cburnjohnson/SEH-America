@@ -1,12 +1,7 @@
-C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\SEH-America-Code-Test.exe.config
-C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\SEH-America-Code-Test.exe
-C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\SEH-America-Code-Test.pdb
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\SEH-America-Code-Test.csprojAssemblyReference.cache
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\SEH_America_Code_Test.Properties.Resources.resources
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\SEH-America-Code-Test.csproj.GenerateResource.cache
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\SEH-America-Code-Test.csproj.CoreCompileInputs.cache
-C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\SEH-America-Code-Test.exe
-C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\SEH-America-Code-Test.pdb
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\SEH_America_Code_Test.Form1.resources
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\Syncfusion.Compression.Base.dll
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\Syncfusion.Licensing.dll
@@ -21,3 +16,8 @@ C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debu
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\HtmlAgilityPack.dll
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\Power-Point-Slide-Generator.exe.config
+C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\Power-Point-Slide-Generator.exe
+C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\bin\Debug\Power-Point-Slide-Generator.pdb
+C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\Power-Point-Slide-Generator.exe
+C:\Users\Colej\source\repos\SEH-America-Code-Test\SEH-America-Code-Test\obj\Debug\Power-Point-Slide-Generator.pdb
